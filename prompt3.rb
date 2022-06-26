@@ -43,13 +43,13 @@ def palendrome_hunter3(string)
     endstring += string[(string.length - 1) - i]
     if frontstring == endstring
       i += 1
-      puts i
     else
       puts 'nahhh'
       break
     end
-    puts 'true'
+    puts 'true' if i == ((string.length - 1) / 2)
   end
 end
 palendrome_hunter3('poop')
-palendrome_hunter3('butts')
+palendrome_hunter3('mom')
+palendrome_hunter3('rotator')

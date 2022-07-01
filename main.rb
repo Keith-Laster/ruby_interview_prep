@@ -54,19 +54,3 @@ def assertDuplicate(_initial_string)
   end
   false
 end
-
-# prompt3
-# return true if string is palendrome
-
-def palendrome_hunter(string)
-  puts 'Right cheeeaa'
-  reverse_string = ''
-  for i in 1..string.length
-    reverse_string += string[string.length - i]
-  end
-  puts "....#{reverse_string}"
-  reverse_string == string
-end
-
-puts palendrome_hunter('poop')
-puts palendrome_hunter('butts')

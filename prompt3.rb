@@ -1,38 +1,38 @@
-# prompt3
-# return true if string is palendrome
+# # prompt3
+# # return true if string is palendrome
 
-def palendrome_hunter(string)
-  reverse_string = ''
-  for i in 1..string.length
-    reverse_string += string[string.length - i]
-  end
-  reverse_string == string
-end
+# def palendrome_hunter(string)
+#   reverse_string = ''
+#   for i in 1..string.length
+#     reverse_string += string[string.length - i]
+#   end
+#   reverse_string == string
+# end
 
-puts palendrome_hunter('poop')
-puts palendrome_hunter('butts')
+# puts palendrome_hunter('poop')
+# puts palendrome_hunter('butts')
 
-puts '......'
+# puts '......'
 
-# prompt 3.1
-# Make the above method at least 2x as fast.
+# # prompt 3.1
+# # Make the above method at least 2x as fast.
 
-def palendrome_hunter2(string1)
-  first_half = ''
-  second_half = ''
-  for i in 0..((string1.length - 1) / 2)
-    first_half += string1[i]
-  end
-  for i in (string1.length / 2)..(string1.length - 1)
-    second_half += string1[i]
-  end
-  first_half == second_half.reverse
-end
+# def palendrome_hunter2(string1)
+#   first_half = ''
+#   second_half = ''
+#   for i in 0..((string1.length - 1) / 2)
+#     first_half += string1[i]
+#   end
+#   for i in (string1.length / 2)..(string1.length - 1)
+#     second_half += string1[i]
+#   end
+#   first_half == second_half.reverse
+# end
 
-puts palendrome_hunter2('poop')
-puts palendrome_hunter2('butts')
+# puts palendrome_hunter2('poop')
+# puts palendrome_hunter2('butts')
 
-puts '......................................'
+# puts '......................................'
 
 def palendrome_hunter3(string)
   frontstring = ''

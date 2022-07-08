@@ -7,10 +7,7 @@ string1_array = string1.chars
 p string1_array
 
 string1_array.each do |c|
-    if c >= string1_array[0, 1, 2, 3, 4, 5]
+while c >= string1_array[0, 1, 2, 3, 4, 5]
        final_array <<
-    else
-        p "test"
-    end
 end
 end

@@ -45,3 +45,5 @@ end
 snail([[1, 2, 3],
        [4, 5, 6],
        [7, 8, 9]])
+
+# kyle notes : loop w/in loop - keep track of threshholds and if you're going up or down
